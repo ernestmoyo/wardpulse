@@ -315,8 +315,38 @@ SPRINT 2 — Feature Complete (5-7 days)
 
 ---
 
+## MIGRATION: Local JSON → Supabase (when ready to go online)
+
+**Current state:** All data stored locally in JSON files (`data/reports.json`, `public/wards.geojson`, `data/ward_names.json`). The `src/lib/db.ts` module is the single abstraction layer — all API routes and pages import from it.
+
+**When to migrate:** When you're ready to deploy publicly, need multi-user writes, or want real-time updates.
+
+**Migration steps:**
+1. Create a Supabase project at supabase.com
+2. Enable PostGIS: SQL Editor → `CREATE EXTENSION IF NOT EXISTS postgis;`
+3. Run `scripts/schema.sql` in Supabase SQL Editor (creates wards, reports, ward_scores tables)
+4. Run `scripts/wards.sql` in Supabase SQL Editor (loads 78 wards with geometry + population)
+5. Import `data/reports.json` into the reports table (write a small migration script or use Supabase CSV import)
+6. Add credentials to `.env.local`:
+   ```
+   NEXT_PUBLIC_SUPABASE_URL=your_url
+   NEXT_PUBLIC_SUPABASE_ANON_KEY=your_key
+   SUPABASE_SERVICE_ROLE_KEY=your_service_key
+   ```
+7. Replace `src/lib/db.ts` with Supabase queries (the interface stays the same — `getWards()`, `getReports()`, `createReport()`, etc.)
+8. The `src/lib/supabase.ts` client is already set up and ready to use
+9. Delete `src/lib/db.ts` after migration is confirmed working
+10. Deploy to Vercel, point wardpulse.org DNS
+
+**What changes:** Only `src/lib/db.ts` gets replaced. All API routes, pages, and components stay the same because they import from `db.ts` not directly from file system or Supabase.
+
+**What doesn't change:** Scoring engine (`scoring.ts`), types (`types.ts`), components, pages, API route signatures.
+
+---
+
 ## Phase 2 — Scale (3-6 months)
 
+- Migrate from local JSON to Supabase (see migration guide above)
 - Councillor magic link emails (weekly digest + response portal)
 - WhatsApp bot for citizen reporting
 - SMS/USSD reporting channel
