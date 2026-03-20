@@ -346,10 +346,3 @@ See [TODOS.md](TODOS.md) for the current development roadmap and open tasks.
 
 MIT
 
-## Acknowledgments
-
-- **The Resident Review** by Asher Munashe Mutandiro — the journalism that inspired this platform
-- **Penn State University & Club of Rome** — The 50 Percent Storytelling Fellowship
-- **Zimbabwe Central Statistical Office** — Ward boundary and census data
-- **GeoBlackout** — Architectural patterns (MapLibre, RSC streaming, Umami)
-- **OpenMapTiles** — Free vector map tiles
