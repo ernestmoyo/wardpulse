@@ -1,0 +1,165 @@
+{
+  "harare": {
+    "5": [
+      "Milton Park",
+      "Monavale",
+      "Belvedere South",
+      "Belvedere North",
+      "New Ridgeview",
+      "Ridgeview",
+      "Belgravia",
+      "Strathaven"
+    ],
+    "6": [
+      "Southlea Park",
+      "Amsterdam Park"
+    ],
+    "7": [
+      "Newlands",
+      "Highlands",
+      "Chisipiti",
+      "Colne Valley",
+      "Ballantyne Park",
+      "Rolf Valley",
+      "Greendale North"
+    ],
+    "9": [
+      "Greendale",
+      "Manresa Estate",
+      "Manresa Park",
+      "Msasa (Mukandabutsu)",
+      "ZRP Msasa Camp",
+      "Old Tafara"
+    ],
+    "10": [
+      "Houghton Park",
+      "Sunningdale 1",
+      "Sunningdale 2",
+      "Sunningdale 3 (New Prospect)"
+    ],
+    "13": [
+      "Lochinvar",
+      "Southerton"
+    ],
+    "16": [
+      "Mabelreign",
+      "Ashdon Park",
+      "Bloomingdale",
+      "Madokero Estate",
+      "Maranatha",
+      "Matidoda Park",
+      "Lenana Park"
+    ],
+    "17": [
+      "Mount Pleasant",
+      "Mount Pleasant Heights",
+      "Groombridge",
+      "Alexandra Park (Old)",
+      "Alexandra Park (New)",
+      "Avondale",
+      "Avondale West"
+    ],
+    "18": [
+      "Borrowdale",
+      "Greystone Park",
+      "Mandara",
+      "The Grange",
+      "Colray",
+      "Quinnington"
+    ],
+    "20": [
+      "New Mabvuku",
+      "Old Tafara",
+      "New Tafara",
+      "Kugarika Kushinga"
+    ],
+    "22": [
+      "Hatfield",
+      "Chadcombe",
+      "Msasa Park"
+    ],
+    "23": [
+      "Parktown",
+      "Mainway Meadows Gate 1",
+      "Mainway Meadows Gate 2",
+      "Mainway Meadows Gate 3",
+      "Prospect"
+    ],
+    "25": [
+      "Engineering",
+      "Old Canaan",
+      "New Canaan",
+      "Old Highfield"
+    ],
+    "26": [
+      "Western Triangle",
+      "Glen View 7 Extension",
+      "Glen View 8 Extension"
+    ],
+    "27": [
+      "Glen Norah C",
+      "Glen Norah C Extension",
+      "Glen Norah B"
+    ],
+    "29": [
+      "Budiriro 5A",
+      "Budiriro 5B"
+    ],
+    "30": [
+      "Glen View 3",
+      "Glen View Area 8"
+    ],
+    "31": [
+      "Budiriro 3",
+      "Budiriro 3 Extension"
+    ],
+    "32": [
+      "Glen View 1 Extension",
+      "Glen View 2 Extension",
+      "Glen View 2",
+      "Glen View 4"
+    ],
+    "35": [
+      "Stoneridge Park",
+      "Stoneridge Phase 3",
+      "Durawall raChiyangwa Stoneridge",
+      "Southlands Park",
+      "Hopley Zone 1",
+      "Hopley Zone 2",
+      "Hopley Zone 3",
+      "Hopley Zone 4",
+      "Hopley Zone 5",
+      "Hopley Zone 6"
+    ],
+    "36": [
+      "Crowborough Phase 4"
+    ],
+    "37": [
+      "Kuwadzana Section 1",
+      "Kuwadzana Section 2",
+      "Kuwadzana Section 3",
+      "Kuwadzana Section 6",
+      "Crowborough Phase 1",
+      "Crowborough Phase 3 (The Federation)"
+    ],
+    "39": [
+      "Dzivarasekwa 1",
+      "Dzivarasekwa 2",
+      "Dzivarasekwa 3",
+      "Dzivarasekwa 4"
+    ],
+    "42": [
+      "Hatcliffe"
+    ],
+    "43": [
+      "Budiriro 4",
+      "Budiriro 4 Extension (Tabudirira)",
+      "Budiriro 5B Extension"
+    ],
+    "44": [
+      "Crowborough Phase 2"
+    ]
+  },
+  "chitungwiza": {},
+  "epworth": {}
+}

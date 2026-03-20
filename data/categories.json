@@ -1,0 +1,146 @@
+{
+  "categories": [
+    {
+      "id": "water",
+      "label": "Water Supply",
+      "weight": 0.25,
+      "examples": [
+        "No municipal water",
+        "Water outage for 2+ consecutive weeks (Ward 37)",
+        "Municipal water limited to once a week (Ward 29)",
+        "Municipal water schedule of 4-5 days per week (Ward 37)",
+        "Unclean municipal water supply (Ward 27)",
+        "Uneven/irregular water distribution across wards",
+        "Financial exploitation of residents desperate for water (Ward 35)",
+        "Daily municipal water but still near civic collapse (Ward 25)",
+        "Daily municipal water received (Ward 10 - positive)",
+        "Rich/affluent areas also lacking municipal water (Ward 7)"
+      ]
+    },
+    {
+      "id": "roads",
+      "label": "Roads & Transport",
+      "weight": 0.18,
+      "examples": [
+        "Deteriorating roads (Ward 37)",
+        "Broken and collapsed roads (Ward 27)",
+        "Flooded muddy roads impassable to vehicles (Ward 43 Budiriro 4 Extension)",
+        "Absence of road infrastructure in new settlements (Ward 43)",
+        "Road rehabilitation efforts underway (Ward 18 Colray - positive)"
+      ]
+    },
+    {
+      "id": "sanitation",
+      "label": "Sanitation & Sewerage",
+      "weight": 0.15,
+      "examples": [
+        "Sewage leaks in residential areas (Ward 37)",
+        "Collapsed sewer infrastructure (Ward 29)",
+        "Malfunctioning sewer systems (Ward 27)",
+        "Water, sanitation, and hygiene (WASH) risks from sewer collapse (Ward 29)",
+        "Sanitation failures across multiple wards"
+      ]
+    },
+    {
+      "id": "waste",
+      "label": "Waste Management",
+      "weight": 0.08,
+      "examples": [
+        "Waste management system failures across wards",
+        "Uncollected refuse and illegal dumping",
+        "Absence of waste collection services in peri-urban wards"
+      ]
+    },
+    {
+      "id": "infrastructure",
+      "label": "Public Infrastructure (General)",
+      "weight": 0.12,
+      "examples": [
+        "Collapsing public infrastructure (Ward 37)",
+        "Crumbling urban systems (Ward 5 - Belgravia, Strathaven, Milton Park)",
+        "Collapse of civic infrastructure turning ward into fractured civic dream (Ward 10)",
+        "Absence of storm drainage infrastructure (Ward 43)",
+        "Visible disrepair, decay, and disregard (Ward 42 Hatcliffe)",
+        "Civic systems teetering (Ward 32 Glen View areas)",
+        "Development facade - new Trabablas Interchange yet broken local infrastructure (Ward 27)",
+        "Urban-rural setup with rural amenities under urban governance (Ward 6)"
+      ]
+    },
+    {
+      "id": "lighting",
+      "label": "Street Lighting",
+      "weight": 0.05,
+      "examples": [
+        "Defunct street lighting (Ward 37 Kuwadzana)",
+        "Non-functional public lighting in residential areas"
+      ]
+    },
+    {
+      "id": "land",
+      "label": "Land & Housing",
+      "weight": 0.07,
+      "examples": [
+        "Land barons influencing service delivery (Ward 35 Hopley/Stoneridge)",
+        "Fraudulent selling of council land - non-existent plots in Newlands (Ward 7)",
+        "Power politics over land allocation (Ward 35)",
+        "Corruption-driven profit over governance in land matters (Ward 9 Old Tafara)",
+        "Durawall raChiyangwa Stoneridge community - politically connected land development (Ward 35)"
+      ]
+    },
+    {
+      "id": "governance",
+      "label": "Governance & Accountability",
+      "weight": 0.05,
+      "examples": [
+        "Privatised local governance - residents forced to self-provide services (Ward 17)",
+        "Privatise or else - only path to service recovery (Ward 22 Hatfield)",
+        "Community-led governance filling municipal vacuum but limited on infrastructure (Ward 31)",
+        "Municipal collapse and near-anarchy conditions (Ward 39 Dzivarasekwa)",
+        "End of local and municipal governance questioned (Ward 43)",
+        "Profit over governance - municipal revenue not translating to services (Ward 9)",
+        "Politricks - political manipulation of service delivery (Ward 29)",
+        "Councillor arrested for fraudulent land sales (Ward 7)"
+      ]
+    },
+    {
+      "id": "health",
+      "label": "Health & Social Welfare",
+      "weight": 0.03,
+      "examples": [
+        "Drug abuse crisis among young residents (Ward 39 Dzivarasekwa 3)",
+        "WASH-related health risks from collapsed sewerage (Ward 29)",
+        "Mental health and social welfare needs in underserved communities"
+      ]
+    },
+    {
+      "id": "environment",
+      "label": "Environmental & Drainage",
+      "weight": 0.02,
+      "examples": [
+        "Flooding due to absent storm drainage (Ward 43 during heavy rains)",
+        "State-owned vehicle stranded in flooded roads (Ward 43 - NetOne vehicle)",
+        "Environmental degradation from unchecked development"
+      ]
+    }
+  ],
+  "metadata": {
+    "source": "Asher Mutandiro LinkedIn Posts - The Resident Review",
+    "total_posts_analyzed": 71,
+    "ward_investigation_posts": 32,
+    "non_ward_posts_skipped": 39,
+    "wards_covered": 26,
+    "municipality": "City of Harare (45 wards total)",
+    "date_range": "May 2025 - March 2026",
+    "notes": [
+      "Weights reflect relative frequency of issue mentions across all ward posts",
+      "Water is the most universally mentioned issue across wards",
+      "Roads and sanitation are the second and third most common",
+      "Governance failures are cross-cutting and mentioned in nearly every post as context",
+      "No Chitungwiza or Epworth wards were covered in The Resident Review - project scope is Harare's 45 wards only",
+      "Epworth appears only in connection with Bless The Child Zimbabwe (separate initiative)",
+      "Ward 18 Colray was the only area with a positive service delivery note (road rehabilitation)",
+      "Ward 39 Dzivarasekwa was the only ward where drug abuse was specifically highlighted",
+      "Several wards had multi-part coverage: Wards 5, 7, 9, 16, 17, 18, 22, 23, 35, 37, 39"
+    ]
+  }
+}
